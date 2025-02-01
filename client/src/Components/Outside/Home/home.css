@@ -1,0 +1,61 @@
+.HomeOut {
+    min-height: 72vh;
+    margin-top: 0px;
+    max-width: 1200px;
+    margin:0 auto;
+}
+
+.toproto {
+    font-size: 25px;
+    text-align: center;
+    align-items: center;
+    background-color: white;
+    padding: 0px 0px;
+    margin-top: 20px;
+    margin-bottom: 10%;
+}
+
+
+.tobuttonarx {
+    text-align: center;
+    line-height: 1.5; /* Δοκίμασε διαφορετικές τιμές αν χρειάζεται */
+    padding: 10px 20px; /* Εναλλακτικά προσαρμόζεις για να ταιριάζει με το design */
+    margin: 0;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 20px; /* Προσαρμόζεις για το μέγεθος του κειμένου */
+    margin-top: 10px;
+}
+
+
+.tobuttonarx:hover {
+   color: rgb(124, 124, 124);
+   border: 2px solid rgb(124, 124, 124);
+}
+
+/* Κρύβουμε τα spans για κινητά */
+@media (max-width: 768px) {
+    .toproto {
+        display: block;
+        padding: 0px 20px;
+        margin-top: 40px;
+    }
+
+    .toaristerah {
+        font-size: 25px;
+        margin-top: 0px;
+    }
+    
+    .todeksiah {
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .tomapsvg {
+        width: 100%;
+        margin-left: -20px;
+    }
+}

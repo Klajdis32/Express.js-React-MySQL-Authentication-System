@@ -1,0 +1,211 @@
+.login {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.09);
+  }
+  
+  .lContainer {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+   height: auto;
+    border: 2px solid black;
+    width: 450px;
+    padding: 20px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    color: black;
+    background-color: rgb(247, 247, 247);
+  }
+  
+  .lContainer>h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 0px;
+  }
+  
+  .tologokaitolabel{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .backlogin {
+    color: black;
+    display: flex;
+    font-weight: 550;
+    margin-left: 5%;
+    margin-top: 0px;
+  }
+  
+  .back>p {
+    margin-left: 15px;
+  }
+  
+  .lContainer>label {
+    font-weight: 600;
+    margin-left: 5%;
+  }
+  
+  .lContainer>span {
+    margin-left: 0%;
+  }
+  
+  .lInput{
+    height: 30px;
+    margin-left: 5%;
+    font-size: 16px;
+    width: 82.5%;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+  }
+  
+  .lButton {
+    width: 40%;
+    margin-left: 30%;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 17px;
+    cursor: pointer;
+    font-weight: 550;
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+  }
+  
+  .lButton:disabled{
+    background-color: #0071c28c;
+    cursor: not-allowed;
+  }
+  
+  .toregister{
+    margin-left: 5%;
+    margin-top: -10px;
+    color: black;
+    font-weight: 600;
+  }
+
+  .tolocalerroredw{
+    margin-left: 5%;
+    width: 83%;
+    border-radius: 5px;
+    padding: 17px 10px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-weight: 600;
+    font-size: 16px;
+    border: 1px solid orange;
+    background-color: rgb(124, 89, 0);
+    color: rgb(255, 190, 70);
+  }
+  
+  
+  .toerroredw {
+    margin-left: 5%;
+    width: 83%;
+    border-radius: 5px;
+    padding: 0px 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: 600;
+    font-size: 16px;
+  }
+
+  #medium{
+    border: 1px solid orange;
+    background-color: rgb(124, 89, 0);
+    color: rgb(255, 190, 70);
+  }
+
+  #high{
+    border: 1px solid red;
+    background-color: rgb(97, 0, 0);
+    color: rgb(255, 53, 53);
+  }
+
+  #success {
+    border: 1px solid rgb(43, 255, 0);
+    background-color: rgb(18, 58, 0);
+    color: rgb(43, 255, 0);
+  }
+  
+  #UserFound {
+    border: 1px solid rgb(43, 255, 0);
+    background-color: rgb(18, 58, 0);
+    color: rgb(43, 255, 0);
+  }
+
+  .toverilink {
+    color: rgb(255, 190, 70);
+    text-decoration: 2px black underline;
+  }
+
+  .verikentro {
+    text-align: center;
+  }
+
+  .toforgotpass {
+    border: none;
+    text-align: right;
+    font-size: 17px;
+    background-color: transparent;
+    text-decoration: underline;
+    font-weight: 550;
+    margin-right: 25px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+
+  #password {
+    width: 72%;
+    border-right: none;
+    border-radius: 5px 0 0 5px;
+  }
+
+  .toeyelog {
+    border: 2px solid black;
+    padding: 13px;
+    margin-right: 5%;
+    border-radius: 0px 5px 5px 0;
+  }
+  
+  /* Προσαρμογές για κινητά */
+  @media (max-width: 768px) {
+    .lContainer {
+      margin-top: 10%;
+      margin-bottom: 10%;
+      border: 2px solid black;
+      width: 80%;
+      padding: 40px 20px;
+      justify-content: center;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      border-radius: 10px;
+      color: black;
+      background-color: rgb(247, 247, 247);
+    }
+  }
+  
+  /* Προσαρμογές για tablet */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .lContainer {
+      margin-top: 10%;
+      margin-bottom: 10%;
+      border: 2px solid black;
+      width: 60%;
+      padding: 40px 20px;
+      justify-content: center;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      border-radius: 10px;
+      color: black;
+      background-color: rgb(247, 247, 247);
+    }
+  }

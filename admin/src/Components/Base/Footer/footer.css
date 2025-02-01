@@ -1,0 +1,92 @@
+.Footer {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 130px;
+    background-color: #222;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    color: rgb(189, 189, 189);
+    z-index: 1000;
+    transition: transform 0.3s ease; /* Ομαλή μετάβαση */
+}
+
+.Footer.hidden {
+    transform: translateX(-100%); /* Κρύβει το footer προς τα αριστερά */
+}
+
+.toname {
+    height: 5%;
+    margin-bottom: 5px;
+    font-weight: 550;
+    color: white;
+    font-size: 18px;
+}
+
+.toBelaki {
+    margin-top: 10%;
+    font-size: 20px;
+    transform: translateY(-50%); /* Κεντράρισμα στο ύψος */
+    right: -25px; 
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+    color: white;
+    border: 2px solid #555;
+    cursor: pointer;
+    transition: right 0.3s ease, transform 0.3s ease;
+}
+
+.Footer.hidden .toBelaki {
+    margin-top: 70%;
+    position: absolute;
+    right: -35px; /* Μετακίνηση εκτός του footer όταν είναι κρυφό */
+}
+
+.toBelaki:hover {
+    background-color: #555;
+}
+
+
+.talinks {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.toa {
+    width: 100%;
+    height: 6%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+    margin-bottom: 2px;
+    transition: background-color 0.3s;
+}
+
+.toa:hover {
+    background-color: #555;
+    color: white;
+
+    .toylink {
+        color: white;
+    }
+}
+
+.toylink {
+    color: rgb(189, 189, 189);
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+}

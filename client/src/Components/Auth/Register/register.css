@@ -1,0 +1,172 @@
+.hForma {
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.09);
+    display: flex;
+}
+
+.lContainer1 {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  height: fit-content;
+  border: 2px solid black;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  height: auto;
+  width: 450px;
+  padding: 40px 20px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 10px;
+  color: black;
+  background-color: rgb(247, 247, 247);
+}
+
+.toh2 {
+  text-align: center;
+} 
+
+.labelkinput{
+  padding: 10px 0px;
+}
+
+label {
+  margin-left: 5%;
+  font-size: 18px;
+}
+
+.toinput{
+  height: 30px;
+  margin-left: 5%;
+  font-size: 16px;
+  margin-top: 5px;
+  width: 85%;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.buttdiv{
+  text-align: center;
+  margin-top: 30px;
+}
+
+.tobutton{
+  padding: 13px 50px;
+  border-radius: 5px;
+  border: 2px solid black;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 550;
+}
+
+.toAlert{
+    margin-left: 5%;
+    width: 85.5%;
+    border-radius: 5px;
+    padding: 0px 10px;
+    margin-top: 5%;
+    margin-bottom: 0px;
+    font-weight: 600;
+    font-size: 16px;
+  }
+
+  #medium{
+    border: 1px solid orange;
+    background-color: rgb(124, 89, 0);
+    color: rgb(255, 190, 70);
+  }
+
+  #high{
+    border: 1px solid red;
+    background-color: rgb(97, 0, 0);
+    color: rgb(255, 53, 53);
+  }
+
+  #success {
+    border: 1px solid rgb(43, 255, 0);
+    background-color: rgb(18, 58, 0);
+    color: rgb(43, 255, 0);
+  }
+  
+
+.aristeradeksia {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -20px;
+  margin-bottom: -20px;
+  margin-left: 2.5%;
+  font-size: 18px;
+}
+
+.back {
+  color: black;
+  font-weight: 550;
+  margin-top: 5px;
+  margin-right: auto;
+}
+
+.Topiswstoreg {
+  margin-top: -5px;
+  margin-right: 5%;
+}
+
+.tolinkdeksia {
+  margin-left: auto;
+  color: black;
+  font-weight: 550;
+}
+
+
+.toselect {
+  width: 90%;
+  margin-left: 5%;
+  padding: 15px 5px;
+  border-radius: 5px;
+  border: 2px solid black;
+  font-size: 16px;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+}
+
+.labelkinputPass {
+  display: flex;
+width: 95.5%;
+
+}
+
+#passwordRE {
+border-radius: 5px 0 0px 5px;
+border-right: none;
+}
+
+#repassword {
+  border-radius: 5px 0 0px 5px;
+border-right: none;
+}
+
+.toeyelogRE {
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 0px 5px 5px 0px;
+  height: 20px;
+  margin-top: 5px;
+  border: 2px solid black;
+}
+/* Προσαρμογές για κινητά */
+@media (max-width: 768px) {
+  .lContainer1 {
+    width: 80%;
+  }
+}
+
+/* Προσαρμογές για tablet */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .lContainer1 {
+    width: 50%;
+  }
+}
