@@ -1,4 +1,4 @@
-# React MySQL Authentication System with cookies for authentication and session management
+# Express.js-React-MySQL Authentication System with cookies for authentication and session management
 
 This project is about a web application with a robust authentication system built using React for the frontend, Express.js for the backend, and MySQL as the database. User interaction with the backend is handled via cookies for authentication and session management.
 
