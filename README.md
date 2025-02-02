@@ -75,7 +75,7 @@ Now your MySQL database is ready for use!
 
 ## 5. Clone the Repository:
    ```bash
-   git clone ...
+   git clone https://github.com/Klajdis32/Express.js-React-MySQL-Authentication-System.git
    cd <repository_folder>
    ```
 
