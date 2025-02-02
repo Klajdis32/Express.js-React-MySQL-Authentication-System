@@ -129,8 +129,8 @@ Now your MySQL database is ready for use!
 ## Folder Structure
 
 ```plaintext
-<project-folder>/
-|│
+<project-folder>
+|
 ├── api/            # Backend API built with Express.js
 ├── admin/          # Admin panel frontend
 └── client/         # Client-facing frontend
